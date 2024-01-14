@@ -132,4 +132,5 @@ p {
 }
 img {
   padding: 90px 30px;
+  background-color: var(--container-color);
 }
