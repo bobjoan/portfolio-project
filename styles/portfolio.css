@@ -41,6 +41,7 @@ p {
   font-weight: 400;
   font-size: 20px;
   line-height: 2;
+  margin-bottom: 40px;
   color: var(--tetiary-color);
 }
 
