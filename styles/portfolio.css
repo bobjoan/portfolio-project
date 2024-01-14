@@ -5,6 +5,9 @@
   --secondary-color: #6c63ff;
   --tetiary-color: #272142;
 }
+body {
+  font-family: var(--secondary-font-family);
+}
 p {
   margin-top: 60px;
 }
