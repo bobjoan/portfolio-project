@@ -5,20 +5,33 @@
   --secondary-color: #6c63ff;
   --tetiary-color: #272142;
 }
-.container {
+p {
+  margin-top: 60px;
+}
+.header {
   background: var(--container-color);
   text-align: center;
   border-radius: 4px;
   padding: 100px;
 }
-h1 {
+
+.header h1 {
   font-family: var(--heading-font-family);
   font-weight: 700;
   line-height: 83px;
-  font-size: 96px;
+  font-size: 93px;
+  text-align: center;
 }
 
-p {
+.header h2 {
+  font-family: var(--secondary-font-family);
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 2;
+  color: var(--tetiary-color);
+}
+
+.header p {
   font-family: var(--secondary-font-family);
   font-weight: bold;
   font-size: 36px;
@@ -27,21 +40,96 @@ p {
   color: var(--tetiary-color);
 }
 
-h2 {
-  font-family: var(--secondary-font-family);
-  font-weight: 400;
-  font-size: 24px;
-  line-height: 2;
-  color: var(--tetiary-color);
-}
-
 .btn-contact {
   background: var(--secondary-color);
   text-decoration: none;
-  border-radius: 30px;
+  border-radius: 10px;
   margin-top: 30px;
   color: var(--container-color);
   font-size: 18px;
   line-height: 27px;
   padding: 12px 20px;
+}
+.img-description {
+  text-align: center;
+  padding: 0;
+  padding: 80px 30px;
+}
+
+.img-description h2 {
+  font-family: var(--heading-font-family);
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 83px;
+  color: #000;
+}
+
+.img-description p {
+  font-family: var(--secondary-font-family);
+  font-size: small;
+  font-weight: 400;
+  line-height: 30px;
+  color: #272142b2;
+}
+
+.btn-item {
+  border: 1px solid var(--secondary-color);
+  color: var(--secondary-color);
+  text-decoration: none;
+  line-height: 27px;
+  padding: 12px 20px;
+  border-radius: 4px;
+}
+
+@media (max-width: 900px) {
+  .header p {
+    font-family: var(--secondary-font-family);
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 54px;
+    margin: 0;
+    color: var(--tetiary-color);
+  }
+  .header h1 {
+    font-family: var(--heading-font-family);
+    font-weight: 700;
+    line-height: 83px;
+    font-size: 44px;
+    text-align: center;
+  }
+
+  .img-description {
+    text-align: center;
+    padding: 0;
+    padding: 80px 30px;
+  }
+
+  .img-description h2 {
+    font-family: var(--heading-font-family);
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 83px;
+    color: #000;
+  }
+
+  .img-description p {
+    font-family: var(--secondary-font-family);
+    font-size: small;
+    font-weight: 400;
+    line-height: 30px;
+    color: #272142b2;
+    opacity: 90%;
+  }
+
+  .btn-item {
+    border: 1px solid var(--secondary-color);
+    color: var(--secondary-color);
+    text-decoration: none;
+    line-height: 27px;
+    padding: 12px 20px;
+    border-radius: 4px;
+  }
+}
+img {
+  padding: 90px 30px;
 }
