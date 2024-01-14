@@ -13,7 +13,7 @@
 h1 {
   font-family: var(--heading-font-family);
   font-weight: 700;
-  line-height: 127px;
+  line-height: 83px;
   font-size: 96px;
 }
 
@@ -30,14 +30,16 @@ h2 {
   font-weight: 400;
   font-size: 24px;
   line-height: 2;
+  margin-top: 30px;
   color: #272142;
 }
 
 .btn {
   padding: 12px 20px 12px 20px;
   background: var(--secondary-color);
-  border-bottom: 4px;
+  border-radius: 50px;
   font-size: 18px;
+  margin-top: 30px;
   line-height: 27px;
   color: var(--container-color);
 }
