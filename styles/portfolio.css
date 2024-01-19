@@ -83,11 +83,11 @@ p {
   padding: 12px 20px;
   border-radius: 4px;
 }
-.about {
+.content-container {
   padding: 160px 80px;
 }
 
-.about h1 {
+.content-container h1 {
   font-family: var(--heading-font-family);
   font-size: 64px;
   font-weight: 700;
@@ -95,7 +95,7 @@ p {
   color: #000;
 }
 
-.about h2 {
+.content-container h2 {
   font-family: var(--secondary-font-family);
   font-size: 16px;
   font-weight: 700;
@@ -103,7 +103,7 @@ p {
   color: var(--tetiary-color);
 }
 
-.about p {
+.content-container p {
   font-family: var(--secondary-font-family);
   font-size: 16px;
   font-weight: 400;
@@ -115,12 +115,28 @@ p {
 .content {
   margin: 30px;
 }
+.content h3 {
+  font-family: var(--secondary-font-family);
+  font-size: 18px;
+  line-height: 36px;
+  font-weight: 700;
+  margin: 20px 0;
+}
+.content p {
+  font-family: var(--secondary-font-family);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.5;
+}
 .inquiry {
   background: var(--container-color);
   border: 1px solid var(--container-color);
   border-radius: 4px;
   display: flex;
   justify-content: space-around;
+  width: 80%;
+  align-items: center;
+  text-align: center;
 }
 .inquiry h1 {
   font-family: var(--heading-font-family);
@@ -153,7 +169,7 @@ p {
   .header {
     padding: 80px 20px;
   }
-  .about {
+  .content-container {
     padding: 0;
     text-align: center;
   }
