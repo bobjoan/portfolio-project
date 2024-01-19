@@ -114,6 +114,7 @@ p {
 
 .content {
   margin: 30px;
+  text-align: center;
 }
 .content h3 {
   font-family: var(--secondary-font-family);
@@ -126,7 +127,6 @@ p {
   font-family: var(--secondary-font-family);
   font-size: 12px;
   font-weight: 400;
-  line-height: 1.5;
 }
 .inquiry {
   background: var(--container-color);
