@@ -55,14 +55,19 @@ nav li.active a {
 }
 
 .btn-contact {
-  background: var(--secondary-color);
+  background-color: var(--secondary-color);
   color: var(--container-color);
   text-decoration: none;
   border-radius: 10px;
   margin-top: 30px;
+  text-align: center;
   font-size: 18px;
   line-height: 27px;
   padding: 12px 20px;
+}
+.btn-contact:hover {
+  color: var(--tetiary-color);
+  font-weight: 600;
 }
 .header h2 {
   font-family: var(--secondary-font-family);
@@ -234,8 +239,9 @@ footer {
 }
 .contact-box {
   background-color: var(--container-color);
-  padding: 30px 120px;
+  padding: 30px;
   border-radius: 10px;
+  margin: 0 auto;
 }
 @media (max-width: 900px) {
   .header {
