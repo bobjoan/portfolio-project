@@ -62,10 +62,9 @@ nav li.active a {
   color: var(--container-color);
   text-decoration: none;
   border-radius: 10px;
-  margin-top: 60px;
   text-align: center;
   font-size: 18px;
-  line-height: 27px;
+  line-height: 90px;
   padding: 12px 20px;
 }
 .btn-contact:hover {
